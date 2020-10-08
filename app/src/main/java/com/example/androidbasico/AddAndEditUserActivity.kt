@@ -30,6 +30,7 @@ class AddAndEditUserActivity : AppCompatActivity() {
         setupAdapter()
         setupSpinnerSelecionarModeloCaro()
         setupButtonSalvar()
+        setupButtonCancelar()
         recuperarDadosDaTelaPrincipalParaEdicao()
     }
 
@@ -60,6 +61,13 @@ class AddAndEditUserActivity : AppCompatActivity() {
                 setResult(RESULT_OK, intent)
                 finish()
             }
+        }
+    }
+
+    private fun setupButtonCancelar(){
+        buttonCancelar.setOnClickListener {
+            setResult(RESULT_CANCELED, intent)
+            finish()
         }
     }
 
