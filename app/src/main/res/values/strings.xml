@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Carros</string>
+    <string-array name="marcas_carro">
+        <item>volkswagen</item>
+        <item>ford</item>
+        <item>jeep</item>
+        <item>ferrari</item>
+        <item>audi</item>
+        <item>porsche</item>
+        <item>bmw</item>
+        <item>mitsubis</item>
+        <item>nissan</item>
+        <item>chevrolet</item>
+        <item>renault</item>
+    </string-array>
+</resources>

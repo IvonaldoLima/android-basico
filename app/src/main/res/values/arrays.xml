@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carros">
+        <item>@drawable/volkswagen</item>
+        <item>@drawable/ford</item>
+        <item>@drawable/jeep</item>
+        <item>@drawable/ferrari</item>
+        <item>@drawable/audi</item>
+        <item>@drawable/porsche</item>
+        <item>@drawable/bmw</item>
+        <item>@drawable/mitsubis</item>
+        <item>@drawable/nissan</item>
+        <item>@drawable/chevrolet</item>
+        <item>@drawable/renault</item>
+    </array>
+</resources>
